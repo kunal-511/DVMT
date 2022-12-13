@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+display: flex;
+/* align-items: center; */
+/* position: sticky; */
+justify-content: center;
+/* cursor: pointer; */
+}
+.navright{
+    display: flex;
+    text-align: right;
+    justify-content: right;
+    float: right;
+    /* overflow: hidden; */
+    
+
+}
+.navlist{ 
+    
+
+
+}
+.navlist li { list-style: none;
+    padding:  12px ;
+    margin-top: 20px;
+    margin-right: 10px;
+    
+    
+    
+    
+}
+.navlist li a { text-decoration: none;
+    color: black;
+    
+}
+.navlist li a:hover{
+    color: blue;
+} 
+button  {
+    color: white;
+    background-color: rgb(166, 36, 236);
+    border: 2px solid rgb(166, 36, 236);
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-top: 14px;
+    
+}
+
+.a1{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+
+}
+.logo img{
+display: flex;
+    width: 2cm;
+    float: left;
+    margin-left: 200px;
+    
+}
+.person{
+    width: 8cm;
+    text-align: right;
+    justify-content: right;
+    
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 200px 30px;
+    
+}
+.firsthalf{
+    width: 45%;
+    justify-content: center;
+    height: 80%;
+    
+}
+.secondhalf{
+    width: 50%;
+}
+.secondhalf img{
+    border: 4px  solid rgb(214, 214, 209);
+    border-radius: 20px;
+    display: block;
+    height: 10cm;
+    margin-left: 250px;
+    
+}
+.leftbox{
+    float: left; 
+        /* width: 4cm;
+        height: 15px; */
+        border: 55px solid rgb(231, 213, 240);
+       background-color: rgb(231, 213, 240);
+       margin-left: 30px;
+       padding-right: 20px;
+       /* margin: 10px;
+       padding-right: 20px;
+       */
+}
+.middlebox{
+     float: left; 
+    /* width: 4cm;
+    height: 15px; */
+    border: 55px solid rgb(231, 213, 240);
+   background-color: rgb(231, 213, 240);
+   margin: 20px;
+   margin-top: 1px;
+   /* */
+   padding-right: 20px; 
+   
+}
+.rightbox{
+     float: right; 
+    border: 55px solid rgb(231, 213, 240);
+   background-color: rgb(231, 213, 240);
+   margin-right: 550px;
+   
+   /* width: 30px;
+        height: 15px;
+        
+        margin-top: 10px;
+        padding-right: 10px;
+         */
+}
+.leftside img{
+    border: 4px  solid rgb(214, 214, 209);
+    border-radius: 20px;
+    display: block;
+    height: 10cm;
+    float: left;
+    margin-left: 160px;
+    
+}
+.rightside{
+    float: right;
+}
+.firsthalf{
+    font-size: large;
+}
+/* .p1 {
+    line-height: 25px;
+}
+.p2 {
+    line-height: 25px;
+}
+.p3 {
+    line-height: 25px;
+} */
+.container{
+    width: 1000px;
+    height: 200px;
+    margin-left: 120px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    
+    
+    
+}
+.box3{
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: rgb(244, 225, 225);
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-right: 50px;
+    border: 2px solid white;
+    border-radius: 6px;
+}
+.lastbox1{
+        width: 100px;
+        border: 5px solid  rgb(166, 36, 236);
+        padding: 50px;
+        margin: 20px;
+        float: right;
+        border-radius: 10px;
+        
+      
+}
+.lastbox2{
+    width: 100px;
+    border: 5px solid  rgb(166, 36, 236);
+    padding: 50px;
+    margin: 20px;
+    float: right;
+    border-radius:10px;
+}.lastbox3{
+    width: 100px;
+    border: 5px solid  rgb(166, 36, 236);
+    padding: 50px;
+    margin: 20px;
+    float: right;
+    
+    border-radius: 10px;
+}.lastbox4{
+    width: 100px;
+    float: right;
+    border: 5px solid rgb(166, 36, 236);
+    padding: 50px;
+    margin: 20px;
+    border-radius: 10px;
+    
+}
+.bottomright{
+    width: 50%;
+}
+.bottomleft{
+    width: 50%;
+    margin-left: 100px;
+    
+}
+.name{
+    color:  rgb(166, 36, 236);
+display: flex;
+
+    font-weight: bold;
+    
+}
+.b1{ 
+    height: 40px;
+
+} 
+.b2 { 
+   background-color: white;
+   color:  rgb(166, 36, 236);
+    height: 40px; 
+}
+ .b3{
+    height: 40px;
+} 
